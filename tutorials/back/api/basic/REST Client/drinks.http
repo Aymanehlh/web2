@@ -1,0 +1,9 @@
+### Read all drinks with File variable
+@baseUrl = http://localhost:3000
+GET {{baseUrl}}/drinks
+
+### Read a single drink
+GET {{baseUrl}}/drinks/3
+
+### Read all drinks cheaper or equal to 3 euros
+GET {{baseUrl}}/drinks/?budget-max=3
